@@ -3,9 +3,7 @@ package Entities;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
-@Entity
 public class Agent {
-    @Id
     private String agent_code;
     private String agent_name;
     private String working_area;
